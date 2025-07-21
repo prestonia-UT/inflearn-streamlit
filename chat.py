@@ -8,10 +8,10 @@ from llm import get_ai_response
 load_dotenv()
 
 st.set_page_config(page_title="소득세 챗봇",
-                   page_icon=":robot_face:"
+                   page_icon="🤖"
 )
 
-st.title(":robot_face: 소득세 챗봇")
+st.title("🤖 소득세 챗봇")
 st.caption("소득세 관련 질문을 해보세요!")
 
 
